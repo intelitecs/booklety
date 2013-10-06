@@ -1,0 +1,34 @@
+# Sets up routing
+BookLety.config(['$routeProvider' ,($routeProvider) ->
+
+    # routes for users
+    #$routeProvider.when('/users/:user_page_param',{templateUrl: '<%= asset_path('users/index.html')  %>',controller: 'UsersController'})
+
+    # routes for articles
+    #$routeProvider.when('/articles/:article_page_param',{templateUrl: '<%= asset_path('articles/index.html')  %>',controller: 'ArticlesController'})
+
+    # default route
+
+    $routeProvider.otherwise({redirectTo: '/articles/'})
+
+    $routeProvider.when('/users',{templateUrl: '<%= asset_path('users/index.html')  %>',controller: 'UsersController'})
+    $routeProvider.when('/users/new',{templateUrl: '<%= asset_path('users/new.html')  %>',controller: 'UsersController'})
+    $routeProvider.when('/users/:idd',{templateUrl: '<%= asset_path('users/show.html')  %>',controller: 'UsersController'})
+    $routeProvider.when('/users/:idd/edit',{templateUrl: '<%= asset_path('users/edit.html')  %>',controller: 'UsersController'})
+
+
+
+    $routeProvider.when('/articles',{templateUrl: '<%= asset_path('articles/index.html')  %>',controller: 'ArticlesController'})
+    $routeProvider.when('/articles/new',{templateUrl: '<%= asset_path('articles/new.html')  %>',controller: 'ArticlesController'})
+    $routeProvider.when('/articles/:id',{templateUrl: '<%= asset_path('articles/show.html')  %>',controller: 'ArticlesController'})
+    $routeProvider.when('/articles/:id/edit',{templateUrl: '<%= asset_path('articles/edit.html')  %>',controller: 'ArticlesController'})
+
+    # Default
+
+
+
+
+
+])
+
+

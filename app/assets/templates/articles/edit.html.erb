@@ -1,0 +1,49 @@
+      <h1>articles/edit template</h1>
+
+      <h2>Edit article {{article.id}}</h2>
+      <p>current article title: {{article.title}}</p>
+      <p>current article description: {{article.description}}</p>
+
+      <h2>Mettre à jour article</h2>
+      <form class="large-12 columns create_article_form" ng-submit="addArticle()">
+        <fieldset>
+          <legend>Formulaire de création d'un nouvel article</legend>
+          <div class="row">
+            <div class="large-5 columns push-2">
+              <label for="title">Titre</label>
+            </div>
+            <div class="large-10 columns pull-1">
+              <input type="text" ng-model="article_title" id="title" size="50" autocomplete="off" ng-model-instant>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-5 columns push-2">
+              <label for="description">Description</label>
+            </div>
+            <div class="large-8 columns pull-3">
+              <textarea ng-model="article_description" rows="15" cols="70"  id="body" ng-model-instant></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-5 columns push-2">
+              <label for="image">Image de l'article</label>
+            </div>
+            <div class="large-8 columns pull-3">
+              <input type="file" ng-model="article_image" id="image" ng-model-instant>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-5 columns">
+              <button class="new_article" type="submit">Valider</button>
+            </div>
+          </div>
+
+
+        </fieldset>
+
+      </form>
+
+

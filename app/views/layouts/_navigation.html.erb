@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="top-bar">
+      <ul class="title-area">
+        <!-- Title Area  -->
+        <li class="name"><h1><%= link_to "Le Book de Leti", root_path %></h1></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Left Nav section -->
+        <ul class="left">
+          <li class="divider"></li>
+          <li ng-class="{active: article_page_param == 'accueil'}"><a href="#/articles/">Accueil</a></li>
+          <li class="divider"></li>
+          <li ng-class="{active: article_page_param == 'index'}"><a href="#/articles/">Articles</a></li>
+          <li class="divider"></li>
+          <li ng-class="{active: user_page_param == 'profile'}"><a href="#/users/profile">Profile de Lety</a></li>
+          <li class="divider"></li>
+          <li ng-class="{active: user_page_param == 'index'}"><a href="#/users/">Utilisateurs</a></li>
+          <li class="divider"></li>
+
+
+        </ul>
+
+        <!-- Right Nav section  -->
+
+          <ul class="right" nav-menu>
+
+                <% unless !current_page?("/")  %>
+                    <li class="divider"></li>
+                    <li ng-class="{active: user_page_param == 'login'}"><a href="#/users/login"   class="connexion">Log in</a></li>
+                    <li class="divider"></li>
+                    <li ng-class="{active: user_page_param == 'sign_up'}"><a href="#/users/new"   class="connexion">Sign up</a></li>
+                <% else if current_page?("/login") %>
+                        <li ng-class="{active: user_page_param == 'sign_up'}"><a href="#/users/new"  class="connexion">Sign up</a></li>
+                    <% else  %>
+                        <li ng-class="{active: user_page_param == 'login'}"><a href="#/users/login"  class="connexion">Log in</a></li>
+                        <li class="divider"></li>
+                        <li ng-class="{active: user_page_param == 'sign_up'}"><a href="#/users/new"  class="connexion">Sign up</a></li>
+                    <% end %>
+                <% end %>
+
+          </ul>
+
+
+
+      </section>
+
+    </div>
+
+
+</div>

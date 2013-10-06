@@ -1,0 +1,10 @@
+###
+BookLety.run ($rootScope,$state,$stateParams) ->
+    #You can turn this 'off' on production
+    $rootScope.$debugMode ="on"
+
+    #Capture current state and stateParams, this variable can be shown in browser for debug purpose
+    $rootScope.$state = $state
+    $rootScope.$stateParams = $stateParams
+
+###

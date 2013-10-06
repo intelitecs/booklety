@@ -1,0 +1,82 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+button[class="next"], button[class="prev"],button[class="edit_article"], button[class*="login"],
+button[class="delete_article"],button[class="new_article"],button[class="comment_article"]{
+  color: #CCCCFF;
+  background: #2F2F4F;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border: none;
+  width: 120px;
+  height: 30px;
+  line-height: 10px;
+  text-align: center;
+
+  font-weight: bold;
+  &:hover{
+    background-color: #3F3F5F;
+  }
+
+}
+
+div.articles_row{
+  margin-left: 2em;
+}
+
+h4[class="article_title"],p[class="description"]{
+  color: #CCCCFF;
+  background: #2F2F4F;
+  width: 700px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin-bottom: 0.2%;
+  //padding-top: 10px;
+
+}
+
+p.description{
+  width: 700px;
+  margin-bottom: 3%;
+  padding: 10px;
+  margin-left: -1.2em;
+  padding-left: 20px;
+}
+
+h4.article_title{
+  height: 40px;
+  line-height: 40px;
+  //margin-left: 3em;
+}
+
+
+
+div[class="comments"]{
+  color: #CCCCFF;
+  background: #2F2F4F;
+  padding: 6px;
+  width: 700px;
+  border-radius: 5px;
+  webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+
+}
+
+form.create_article_form textarea{
+  height: 150px;
+  max-height: 150px;
+  width: 400px;
+  max-width: 400px;
+}
+
+div.drop_place{
+  background-color: #CCCCFF;
+  height: 100px;
+  margin-bottom: 10px;
+}

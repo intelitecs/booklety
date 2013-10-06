@@ -1,0 +1,59 @@
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Table des utilisateurs</h1>
+
+        <div class="row user_management">
+          <div class="large-10 columns">
+            <i data-tooltip title="Créer un nouveau compte"    ng-click="displaySignUpForm()"  class="tip-top article-create icon-save icon-large"></i>
+            <span  ng-show="getDone().length != 0">
+              <i data-tooltip title="Modifier les comptes sélectionnés"   class="tip-top article-update icon-edit icon-large"></i>
+              <i data-tooltip title="supprimer les comptes sélectionnés" ng-click="deleteSelectedUsers()"  class="tip-top article-delete icon-trash icon-large"></i>
+            </span>
+          </div>
+        </div>
+        <hr class="separator" />
+        <div class="row">
+          <div class="large-16 columns">
+             <div ng-show="getDone().length != 0">
+               <span><b>{{getDone().length}}</b> comptes sélectionnés</span>
+             </div>
+            <!--<div ng-repeat="user in getDone()">
+              <h5>{{user.username}}</h5>
+            </div> -->
+
+
+            <table ng-show="users.length != 0" class="row responsible">
+
+              <p><h4>{{users.length}} utilisateurs enregistrés.</h4></p>
+
+              <thead>
+              <tr>
+                <th class="selection">Selection</th>
+                <th>Pseudo</th>
+                <th>Email</th>
+                <th>Date d'inscription</th>
+                <th>Nombre de commentaires</th>
+                <th>Profile</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr class="user_tr" ng-repeat="user in users">
+                <td id="selection" ><input type="checkbox" ng-model="user.done" />   {{$index+1}}  {{user.id}}</td>
+                <td>{{user.username}} </td>
+                <td>{{user.email}}</td>
+                <td>{{user.created_at | date:'fullDate'}}</td>
+                <td>{{user.comments.length}}</td>
+                <td><i class="profile" ng-click="show_user(user.id)">profile</i></td>
+
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+

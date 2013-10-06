@@ -1,0 +1,6 @@
+
+angular.module('templates',[]).run(function($templateCache){
+    <% Dir.glob(Rails.root.join('app','assets','templates','*.erb')).each do |file| %>
+      $templateCache.put("<%= File.basename(f).gsub(/\.erb$/,'')  %>", <%= Erb::Engine.new(File.read(file)).render.to_json %> );
+    <% end %>
+})

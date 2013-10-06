@@ -1,0 +1,49 @@
+<h4>Céer un compte</h4>
+<form class="large-12" ng-submit="addUser()">
+  <fieldset>
+    <legend>Formulaire de création de compte</legend>
+    <div class="row">
+      <div class="large-5 columns push-2">
+        <label for="username">Pseudo</label>
+      </div>
+      <div class="large-8 columns pull-3">
+        <input type="text" ng-model="username" id="username" placeholder="Votre pseudo" ng-model-instant>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-5 columns push-2">
+        <label for="email">Email</label>
+      </div>
+      <div class="large-8 columns pull-3">
+        <input type="email" ng-model="email" id="email" placeholder="Votre email" ng-model-instant>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-5 columns push-2">
+        <label for="password">Mot de passe</label>
+      </div>
+      <div class="large-8 columns pull-3">
+        <input type="password" ng-model="password" id="password" placeholder="Votre mot de passe" ng-model-instant>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-5 columns push-2">
+        <label for="password_confirmation">Confirmation </label>
+      </div>
+      <div class="large-8 columns pull-3">
+        <input type="password" ng-model="password_confirmation" id="password_confirmation" placeholder="Confirmer votre mot de passe" ng-model-instant>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-5 columns">
+        <button type="submit">Valider</button>
+      </div>
+    </div>
+
+
+  </fieldset>
+
+</form>
+

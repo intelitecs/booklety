@@ -1,0 +1,29 @@
+<h1>{{articles.length}} <small>articles</small></h1>
+
+<div class="row articles_row">
+  <div class="large-4 columns articles_browser">
+    <i data-tooltip title="article précédent"         class="tip-top article-prev icon-large icon-chevron-sign-left" ng-click="setPrevArticle()"></i>
+    <i data-tooltip title="article suivant"           class="tip-top article-next icon-large icon-chevron-sign-right" ng-click="setNextArticle()"></i>
+    <i data-tooltip title="commenter cet article"     class="tip-top article-comments icon-comments icon-large" ng-click="displayCommentForm()"></i>
+    <i class="icon-large icon-plus-sign"></i>
+  </div>
+  <div class="large-3 columns  pull-2  articles_management">
+    <i data-tooltip title="Créer un nouvel article"    ng-click="showNewArticleForm()"  class="tip-top article-create icon-save icon-large"></i>
+    <i data-tooltip title="mettre à jour cet article"  ng-click="showEditArticleForm(article.id)"  class="tip-top article-update icon-edit icon-large"></i>
+    <i data-tooltip title="supprimer cet article"      ng-click="deleteArticle()"    class="tip-top article-delete icon-trash icon-large"></i>
+  </div>
+  <br/>
+  <div class="row article" id="article_article.id" ng-show="article">
+    <h3 class="article_title">{{article.title}}</h3>
+    <b><i><%= "n° {{article.id}}, publication: " %></i> {{article.created_at | date:'fullDate'}}</b>
+    <div class="large-12 columns">
+     <!-- <img class="article_image" src="{{article.image}}" alt="{{article.title}} image" /> -->
+      <p class="description">{{article.description}}</p>
+    </div>
+    <div class="row">
+      <div class="large-12 columns comment_form"></div>
+    </div>
+  </div>
+
+</div>
+
