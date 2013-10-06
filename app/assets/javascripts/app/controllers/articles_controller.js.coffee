@@ -61,7 +61,7 @@
         console.log($scope.errors)
 
     $scope.initialize = (successCallback,errorCallback) ->
-      if((typeof successCallback is 'function') and (typeof errorCallback is 'function'))
+      if((angular.isFunction(successCallback) ) and (angular.isFunction(errorCallback)))
         @articleService = new Article(successCallback,errorCallback)
 
 

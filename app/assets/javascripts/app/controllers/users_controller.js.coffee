@@ -7,9 +7,6 @@
     $scope.users = $rootScope.users
     $scope.user = null
 
-    #Getting the user_page_param from the scope
-    user_page_param = $routeParams.user_page_param
-    $scope.$emit('routeLoaded',{user_page_param: user_page_param})
     $scope.dones = {}
 
 
@@ -89,37 +86,36 @@
 
 
 
-    $scope.init = (successCallback,errorCallback) ->
-      if((typeof successCallback is 'function') and (typeof errorCallback is 'function'))
+    $scope.initialize = (successCallback,errorCallback) ->
+      if((angular.isFunction(successCallback) ) and (angular.isFunction(errorCallback)))
         @userService = new User(successCallback,errorCallback)
       #$scope.users = @userService.all()
 
     #GET a user by its id
     $scope.get = (id) ->
-      $scope.init($scope.getOneSucessCallback,$scope.errorCallback)
+      $scope.initialize($scope.getOneSucessCallback,$scope.errorCallback)
       @userService.get(id)
 
 
     #create a new user
     $scope.addUser = ->
-      $scope.init($scope.createSuccessCallback,$scope.createErrorCallback)
+      $scope.initialize($scope.createSuccessCallback,$scope.createErrorCallback)
       @userService.create({username: $scope.username, email: $scope.email, password: $scope.password, password_confirmation: $scope.password_confirmation})
 
 
 
     $scope.deleteUser = (user) ->
-      $scope.init($scope.deleteSuccessCallback,$scope.errorCallback)
+      $scope.initialize($scope.deleteSuccessCallback,$scope.errorCallback)
       @userService.delete(user)
       $scope.users.splice($scope.users.indexOf(user),1)
 
     $scope.updateUser = (user,data) ->
-      $scope.init($scope.updateSuccessCallback,$scope.errorCallback)
+      $scope.initialize($scope.updateSuccessCallback,$scope.errorCallback)
       @userService.update(user,data)
       $scope.message = "compte #{user.username} modifié avec succès!"
 
 
     $scope.updateUserForId = (id,data) ->
-      $scope.init($scope.updateSuccessCallback,$scope.errorCallback)
       user = _.findWhere $scope.users,{id: id}
       $scope.user = user
       $scope.updateUser(user,data)

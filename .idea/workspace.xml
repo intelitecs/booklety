@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" name="Default" comment="" />
+    <list default="true" id="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/controllers/articles_controller.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers/articles_controller.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="booklety.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380361175838" ignored="false" />
@@ -22,7 +26,7 @@
     <file path="/routes.rb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380743087311" ignored="false" />
     <file path="/index.js.coffee.erb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380353509453" ignored="false" />
     <file path="/index.html.erb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380901789844" ignored="false" />
-    <file path="/articles_controller.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1381032784234" ignored="false" />
+    <file path="/articles_controller.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1381050747393" ignored="false" />
     <file path="$PROJECT_DIR$/../blog/app/assets/javascripts/application.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380359210918" ignored="false" />
     <file path="$PROJECT_DIR$/../last/blog/config/database.yml" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380361175838" ignored="false" />
     <file path="$PROJECT_DIR$/../last/blog/config/routes.rb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380362594587" ignored="false" />
@@ -68,7 +72,7 @@
     <file path="/_navigation.html.erb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380452832871" ignored="false" />
     <file path="/navigation_controller.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380398335166" ignored="false" />
     <file path="/sessions_service.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380399690852" ignored="false" />
-    <file path="/users_controller.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996436939" ignored="false" />
+    <file path="/users_controller.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1381051573687" ignored="false" />
     <file path="/login.html.erb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380439743148" ignored="false" />
     <file path="/signup.html.erb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380441862942" ignored="false" />
     <file path="/navigation_directive.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380445319542" ignored="false" />
@@ -106,13 +110,6 @@
     <file path="/home.css.scss" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380899810232" ignored="false" />
     <file path="/users.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380901963624" ignored="false" />
     <file path="/articles_services.js.coffee" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380995117101" ignored="false" />
-    <file path="$PROJECT_DIR$/test/controllers/users_controller_test.rb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996176200" ignored="false" />
-    <file path="$PROJECT_DIR$/test/controllers/articles_controller_test.rb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996176200" ignored="false" />
-    <file path="$PROJECT_DIR$/test/controllers/comments_controller_test.rb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996176200" ignored="false" />
-    <file path="$PROJECT_DIR$/vendor/assets/javascripts/angular-loader.js" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996176200" ignored="false" />
-    <file path="$PROJECT_DIR$/config/routes.rb" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996176200" ignored="false" />
-    <file path="$PROJECT_DIR$/vendor/assets/javascripts/angular-mocks.js" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996176200" ignored="false" />
-    <file path="$PROJECT_DIR$/vendor/assets/javascripts/angular-sanitize.js" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1380996176200" ignored="false" />
     <file path="/articles.css.scss" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1381005970215" ignored="false" />
     <file path="/Dummy.txt" changelist="ea42db3f-d1de-42a3-ab03-a329ccaf2bec" time="1381033444534" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -134,19 +131,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="users_controller.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee">
+      <file leaf-file-name="articles_controller.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/articles_controller.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="39" selection-start="5459" selection-end="5459" vertical-scroll-proportion="0.0">
+            <state line="63" column="86" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles_controller.js.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/articles_controller.js.coffee">
+      <file leaf-file-name="users_controller.js.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="6" selection-start="4396" selection-end="4396" vertical-scroll-proportion="2.5254238">
+            <state line="116" column="18" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.38305086">
               <folding />
             </state>
           </provider>
@@ -254,10 +251,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/services/users_services.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/services/articles_services.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/templates/articles/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/config/routes.js.coffee.erb" />
         <option value="$PROJECT_DIR$/app/assets/templates/articles/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers/articles_controller.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee" />
       </list>
     </option>
   </component>
@@ -269,8 +266,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="46" />
+    <option name="x" value="223" />
+    <option name="y" value="28" />
     <option name="width" value="1436" />
     <option name="height" value="836" />
   </component>
@@ -497,6 +494,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booklety" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booklety" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -875,12 +902,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="46" width="1436" height="836" extended-state="0" />
+    <frame x="223" y="28" width="1436" height="836" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32746956" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5142084" sideWeight="0.36906475" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1046,13 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="39" selection-start="5459" selection-end="5459" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/config/routes.js.coffee.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="36" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0">
@@ -1069,7 +1089,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/articles_controller.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="6" selection-start="4396" selection-end="4396" vertical-scroll-proportion="2.5254238">
+        <state line="63" column="86" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/users_controller.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="18" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.38305086">
           <folding />
         </state>
       </provider>
